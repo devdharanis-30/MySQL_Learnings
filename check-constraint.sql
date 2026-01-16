@@ -27,3 +27,5 @@ values(3,"chotta bheem",31);
 drop table cartoon_info;
 
 
+
+
