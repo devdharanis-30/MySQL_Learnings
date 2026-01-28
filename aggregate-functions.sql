@@ -46,6 +46,18 @@ select min(age) from players_set1;
 select max(name) from players_set1;
 
 
+select role,max(age) as oldest
+from players_set1 
+group by role;
+
+insert into players_set1
+values(17,"bumrah","bowler","32",0,0,0,0);
+
+
+select role,min(age) as youngest_bowler
+from players_set1
+group by role 
+having role="bowler";
 
 
 
